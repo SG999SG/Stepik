@@ -22,11 +22,11 @@ def encryption(text, language, step):
 def decryption(text, language, step):
     return encryption(text, language, -step)
 
-def valid_input(text, type):
-    if type == 'string':
-        var = input(text)
-    if type == 'int':
-        var = int(input(text))
+#def valid_input(text, type):
+#    if type == 'string':
+#        var = input(text)
+#    if type == 'int':
+#        var = int(input(text))
 
 dest = input('Направление шифрования (Шифрование - 1, дешифрование - 0) ')
 lang = input('Язык алфавита (en / ru) ')
